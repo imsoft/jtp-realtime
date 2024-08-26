@@ -15,6 +15,7 @@ import {
 
 import {
   Bars3Icon,
+  MapIcon,
   UserGroupIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
@@ -28,6 +29,7 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Usuarios", href: "/view-users", icon: UserGroupIcon },
+  { name: "Rutas", href: "/view-routes", icon: MapIcon },
 ];
 
 const userNavigation = [
